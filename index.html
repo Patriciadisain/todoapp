@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ToDo Twitter</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="imagen/twitter-128.png" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fonts/fontawesome-webfont.woff">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <!-- enlazar glyphicons<link rel="stylesheet" href="css/font-awesome.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!-- CABECERA -->
+    <section class="degrad">
+      <nav id="principal">
+      <div class="row">
+         <div class="logo col-xs-12 text-center">
+           <h1>To do App</h1>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h2>¡Haz tu propia lista de pendientes!</h2>
+        </div>
+      </div>
+    </nav>
+    <section>
+    <!-- Scrollbar -->
+    <!-- Añadir tareas a la lista -->
+      <div class="row">
+         <div id="myDIV" class="#">
+            <textarea type="text" id="texTarea" class=" col-xs-offset-2 col-xs-10 col-sm-8" placeholder="Escríbe tus pendientes"></textarea>
+            <span onclick="" class="addBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+         </div>
+    </section>
+    <!-- Mostrar lista de tareas -->
+    <section>
+      <div class="row">
+         <div class="" style="overflow-y: auto; max-height: 300px;">      
+            <ul id="ulLista" class="col-xs-12 elementos">
+            </ul>         
+         </div>
+      </div>        
+    </section>
+        <!-- Aqui va el script - NO BORRAR-->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/script.js"></script>
+    </section>
+</body>
+      

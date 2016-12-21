@@ -1,0 +1,136 @@
+/*Este es mi css*/
+/*para app*/
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+ }
+body{
+    background-image: url("../imagen/fondo-abstracto-azul_1048-1511 (1).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+.degrad{
+    height: 100vh;
+    background-color: rgba(10,12,54,0.3);
+}
+.row{
+	margin: 0;
+}
+/*nav principal*/
+#principal {
+	background-color: #710443;
+}
+h1, h2{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-shadow: 2px 2px #6A6666;
+}
+h1{
+    font-size: 6em;
+}
+@media screen and (max-width: 400px) {
+	h1{
+		padding-top: 0;
+		margin-top: 0;
+	}
+}
+.header {
+	background-color: #1da1f2;
+    padding: 50px 50px;
+    color: #657786;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+textarea{
+    border-radius: 15px;
+    margin-top: 15px;
+    font-size: 1.8em;
+}
+textarea:focus{
+    outline: none;
+}
+.addBtn {
+    color: #710443;
+    font-size:4.6em;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    margin: 4px;
+}
+.addBtn:hover {
+    color: #019CD9;
+ }
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    width: 66%;
+    margin: 10px 17%;
+    padding: 1% 5%;
+    font-size: 1.4em;
+    border-radius: 15px;
+    transition: 0.8s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    list-style: none;
+    background-color: rgba(158,44,101,0.3);
+}
+ul li:nth-child(odd) {
+    background-color: rgba(0,0,0,0.4);
+}
+ul li:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+ul li.listo{
+    color: #e1e8ed;
+    text-decoration: line-through;
+}
+ul li.listo:before {
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(35deg);
+    height: 15px;
+    width: 7px;
+}
+.fa-heart{
+	font-size: 1.8em;
+	position: absolute;
+	right: 62px;
+}
+.fa-trash{
+	font-size: 1.8em;
+	position: absolute;
+	right: 20px;
+}
+.hecho{
+	position: absolute;
+	right: 115px;
+	-ms-transform: scale(2); /* IE */
+	-moz-transform: scale(2); /* FF */
+  	-webkit-transform: scale(2); /* Safari and Chrome */
+  	-o-transform: scale(2); /* Opera */
+  	padding: 80px;
+    top:22px;
+    margin:2px;
+}
+.texto{
+	max-width: 70%;
+}
